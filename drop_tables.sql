@@ -1,0 +1,2 @@
+drop table if exists
+	other, grant_partner, advisory_board, recruiting, event, program, internships, job_postings, organization, internship_history, job_history, internship, job_posting, wEvaluation, workshop, quarter, advising_session, visit_reason, staff, student, family_income, residence, household_information, race, military_status, goal, found_out, gender, zipcode;

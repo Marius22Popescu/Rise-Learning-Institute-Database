@@ -1,0 +1,256 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	background-color: rgb(242,242,242);
+}
+
+.container {
+	background: #FFF;
+	margin-top: 0px;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #E1E1E1;
+	border-bottom-color: #E1E1E1;
+	border-left-color: #E1E1E1;
+}
+
+.header img {
+	float: left;
+}
+
+.header {
+	text-align: center;
+	height: 100px;
+	padding: 25px;
+	font-size: 36px;
+	line-height: 100px;
+}
+
+header h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	text-decoration: overline;
+}
+
+.nav {
+	margin: 0;
+	background: #0000ff;
+	background: -webkit-linear-gradient(#0000ff, #073763);
+	background: linear-gradient(#0000ff, #073763);
+	text-align: justify;
+	height: 45px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.nav ul {
+	margin: 0;
+	display: inline;
+	text-align: justify;
+	font-style: normal;
+	font-weight: bold;
+	border-top-color: rgb(0,0,0);
+	border-right-color: rgb(0,0,0);
+	border-bottom-color: rgb(0,0,0);
+	border-left-color: rgb(0,0,0);
+}
+
+.nav ul li {
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	width: auto;
+	padding-top: 0px;
+	padding-right: 5%;
+	padding-bottom: 0px;
+	padding-left: 5%;
+	margin: 0;
+}
+
+.nav a {
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.row:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.col2 {
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+}
+
+.col3 {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+}
+
+.content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: rgb(0,0,0);
+	border-right-color: rgb(0,0,0);
+	border-bottom-color: rgb(0,0,0);
+	border-left-color: rgb(0,0,0);
+}
+
+#advising {
+	background: #00ff00;
+	background: -webkit-linear-gradient(#00ff00, #38761d);
+	background: linear-gradient(#00ff00, #38761d);
+	border: 1px solid #000000;
+	border-radius: 10px;
+	width: 200px;
+	height: 170px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	font-family: "Calibri", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 170px;
+	font-weight: 700;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+#administration {
+	background: #ff0000;
+	background: -webkit-linear-gradient(#ff0000, #990000);
+	background: linear-gradient(#ff0000, #990000);
+	border: 1px solid #000000;
+	border-radius: 10px;
+	width: 200px;
+	height: 170px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	font-family: "Calibri", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 170px;
+	font-weight: 700;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+#job_search {
+	background: #0000ff;
+	background: -webkit-linear-gradient(#0000ff, #0b5394);
+	background: linear-gradient(#0000ff, #0b5394);
+	border: 1px solid #000000;
+	border-radius: 10px;
+	width: 200px;
+	height: 170px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	font-family: "Calibri", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 170px;
+	font-weight: 700;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+#reporting {
+	background: #9900ff;
+	background: -webkit-linear-gradient(#9900ff, #351c75);
+	background: linear-gradient(#9900ff, #351c75);
+	border: 1px solid #000000;
+	border-radius: 10px;
+	width: 200px;
+	height: 170px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	font-family: "Calibri", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 170px;
+	font-weight: 700;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+#internship_search {
+	background: #ff9900;
+	background: -webkit-linear-gradient(#ff9900, #b45f06);
+	background: linear-gradient(#ff9900, #b45f06);
+	border: 1px solid #000000;
+	border-radius: 10px;
+	width: 200px;
+	height: 170px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	font-family: "Calibri", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 170px;
+	font-weight: 700;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+#import {
+	background: #ff00ff;
+	background: -webkit-linear-gradient(#ff00ff, #741b47);
+	background: linear-gradient(#ff00ff, #741b47);
+	border: 1px solid #000000;
+	border-radius: 10px;
+	width: 200px;
+	height: 170px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	font-family: "Calibri", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 170px;
+	font-weight: 700;
+	font-variant: normal;
+	text-decoration: none;
+}
