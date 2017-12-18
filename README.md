@@ -1,1 +1,12 @@
 # RiseLearningInstitute-Database
+
+team project - 4 members
+
+The Problem
+The Rise Learning Institute and the Center of Careers Connections at Bellevue College work to connect students, local businesses, and educators together to create a myriad of services for the school, students, and the community, such as learning service opportunities, internships, jobs, advisory boards and grants to further enrich the learning environment here on campus. Different staff members at RISE collect and store these contacts and relationships in several different ways, but there isn’t a standard used by everyone. Information gets lost in the cracks when different staff members at RISE pick up where other members have left off, restricting the institute from accomplishing more. 
+
+Client Requirements
+Rise needs to be able to collect demographic information on students and search by fields, generating demographic reports by ZIP code with filters for student fields, as well as total number advising and internships by race. The relationships RISE has with organization should be broken up into different types of relationships in such a way that it’s easily maintainable. RISE should be able to count all of the various relationships between it and any specific organization. RISE should be able to track advising sessions by person and limit advising sessions to three for ‘potential students’. RISE should be able to track advising sessions for potential student becoming a student. RISE should be able to keep track of students visiting multiple advisers over time. Internships and job applications submitted should be time stamped, and there should be room for success history to be reported back at a later date. Internship and job history should be able to be inserted retroactively. RISE should be able to import data from excel and export to CSV.
+
+Our Solution
+We will create a web interface and database to browse, add, store and update these relationships. These relationships will be described by the points of contacts at RISE, at the businesses, and any students involved actively engaged in the projects. These relationships will have a text field for RISE staff members to characterize each relationship. This web interface will allow searching by student or by organization. These search queries will be able to be filtered by fields. It’s also important that this data is exportable to a flexible format (CSV), so down the road RISE can moves to a CRM.
